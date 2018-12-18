@@ -1,4 +1,34 @@
+Name: Insert <-
+Description: Inserts `<-` at the cursor position.
+Binding: insertAssignmentOperator
+Interactive: false
+
+Name: Insert %>%
+Description: Inserts `%>%` at the cursor position.
+Binding: insertBaseOperator
+Interactive: false
+
+Name: Insert %<>%
+Description: Inserts `%<>%` at the cursor position.
+Binding: insertMagrittrCompoundAssignmentOperator
+Interactive: false
+
+Name: Insert %$%
+Description: Inserts `%$%` at the cursor position.
+Binding: insertExpositionOperator
+Interactive: false
+
 Name: Insert %+%
 Description: Inserts `%+%` at the cursor position.
 Binding: insertConcatinateOperator
+Interactive: false
+
+Name: Insert %in%
+Description: Inserts `%in%` at the cursor position.
+Binding: insertInOperator
+Interactive: false
+
+Name: Insert %T>%
+Description: Inserts `%T>%` at the cursor position.
+Binding: insertMagrittrTeeOperator
 Interactive: false

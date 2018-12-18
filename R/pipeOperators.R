@@ -4,16 +4,22 @@ insertAssignmentOperator <- function() {
   )
 }
 
-insertMagrittrCompoundAssignmentOperator <- function() {
+insertBaseOperator <- function() {
   rstudioapi::insertText(
-    paste0(beforeSpace(),"%<>%", afterSpace())
+    paste0(beforeSpace(),"%>%", afterSpace())
     )
 }
 
-insertMagrittrTeeOperator <- function() {
+insertMagrittrCompoundAssignmentOperator <- function() {
   rstudioapi::insertText(
-    paste0(beforeSpace(),"%T>%", afterSpace())
-    )
+    paste0(beforeSpace(),"%<>%", afterSpace())
+  )
+}
+
+insertExpositionOperator <- function() {
+  rstudioapi::insertText(
+    paste0(beforeSpace(),"%$%", afterSpace())
+  )
 }
 
 insertConcatinateOperator <- function() {
@@ -28,8 +34,9 @@ insertInOperator <- function() {
     )
 }
 
-insertExpositionOperator <- function() {
+insertMagrittrTeeOperator <- function() {
   rstudioapi::insertText(
-    paste0(beforeSpace(),"%$%", afterSpace())
-    )
+    paste0(beforeSpace(),"%T>%", afterSpace())
+  )
 }
+
