@@ -16,7 +16,7 @@ You can insert pipe operators linked to keyboard shortcuts in [RStudio](https://
 <thead>
 <tr class="header">
 <th align="center">Operator</th>
-<th align="left">package</th>
+<th align="left">Package</th>
 </tr>
 </thead>
 <tbody>
