@@ -32,3 +32,8 @@ Name: Insert %T>%
 Description: Inserts `%T>%` at the cursor position.
 Binding: insertMagrittrTeeOperator
 Interactive: false
+
+Name: View Object
+Description: View Object
+Binding: ViewForShortKey
+Interactive: false
