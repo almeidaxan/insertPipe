@@ -6,6 +6,10 @@ Description
 
 You can insert pipe operators linked to keyboard shortcuts in [RStudio](https://www.rstudio.com/products/RStudio/).
 
+### New
+
+Added button **`View Object`** - This is needed to quickly view an object or expression. This is analogous to expression `View(your_dataframe_or_expression)`
+
 ### Available operators
 
 <table>
@@ -50,6 +54,8 @@ You can insert pipe operators linked to keyboard shortcuts in [RStudio](https://
 </tr>
 </tbody>
 </table>
+
+
 
 Installation
 ------------
