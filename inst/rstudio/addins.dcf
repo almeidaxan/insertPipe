@@ -36,4 +36,4 @@ Interactive: false
 Name: View Object
 Description: View Object
 Binding: ViewForShortKey
-Interactive: true
+Interactive: false
