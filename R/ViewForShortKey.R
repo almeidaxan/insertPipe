@@ -19,7 +19,8 @@ ViewForShortKey <- function()
     end_select <- min(ind[ind>=column]) - 1
 
     text <- substr(row_text,start_select,end_select)
+    print(paste0('View(',text,")"))
   }
-  print(paste0('View(',text,")"))
+
   eval(parse(text = paste0('View(',text,")")))
 }
