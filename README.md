@@ -10,6 +10,8 @@ You can insert pipe operators linked to keyboard shortcuts in [RStudio](https://
 
 Added button **`View Object`** - This is needed to quickly view an object or expression. This is analogous to expression `View(your_dataframe_or_expression)`
 
+![](view_example.gif)
+
 ### Available operators
 
 <table>

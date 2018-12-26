@@ -14,7 +14,7 @@ ViewForShortKey <- function()
       stop("Nothing is highlighted", call. = FALSE)
 
     # unlist(gregexpr("[\\s\\(\\)]", row_text, perl=TRUE))
-    ind <-c(0, unlist(gregexpr("[\\s\\(\\)\\,\\[\\]]", row_text, perl=TRUE)), nchar(row_text)+1)
+    ind <-c(0, unlist(gregexpr("[\\s\\(\\)\\,\\[\\]\\$]", row_text, perl=TRUE)), nchar(row_text)+1)
     start_select <- max(ind[ind<column]) + 1
     end_select <- min(ind[ind>=column]) - 1
 
