@@ -57,13 +57,10 @@ Added button **`View Object`** - This is needed to quickly view an object or exp
 </tbody>
 </table>
 
-
-
 Installation
 ------------
 
 ``` r
-if (!requireNamespace("devtools", quietly = TRUE))
-  install.packages("devtools")
-devtools::install_github('Ranlod/insertPipe')
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+devtools::install_github('almeidaxan/insertPipe')
 ```
